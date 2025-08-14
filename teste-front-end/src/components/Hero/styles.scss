@@ -1,0 +1,42 @@
+@use '../../index' as *;
+
+.hero {
+    height: 360px;
+    background: url('../../assets/Hero.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero-content {
+    width: 700px;
+    padding: 2rem;
+
+}
+
+.hero-content h1 {
+    line-height: 50px;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.hero-content p {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.highlight {
+    color: yellow;
+    font-weight: bold;
+}
+
+.ec-hero-button {
+    margin-top: 1rem;
+    background: yellow;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}

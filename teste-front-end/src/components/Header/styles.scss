@@ -1,0 +1,134 @@
+@use '../../index' as *;
+
+/*Navbar superior*/
+
+.ec-vantagens {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 90%;
+    margin: none;
+    justify-content: center;
+    gap: 124px;
+    padding: 8px 0;
+    border-bottom: 1px solid $ec-color-border-cinza-claro;
+
+}
+
+
+.ec-shield,
+.ec-truck,
+.ec-card {
+    width: auto;
+    height: 20px;
+    display: flex;
+    gap: 9px;
+    font-size: 12px;
+    color: $ec-color-font-cinza-medio;
+    justify-content: center;
+
+}
+
+span {
+    color: $ec-color-font-azul;
+    font-weight: 600;
+}
+
+
+/*Navbar centro*/
+
+.ec-navbar {
+    background-color: $ec-color-bg-branco ;
+    display: flex;
+    height: 72px;
+    width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $ec-color-border-cinza-claro ;
+
+}
+
+
+.ec-search-box {
+    width: 638px;
+}
+
+.ec-search-bar {
+    width: 638px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    background-color: $ec-color-searchbar-cinza;
+
+}
+
+.ec-search-bar input {
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    background-color: $ec-color-searchbar-cinza;
+}
+
+.ec-search-bar input:focus {
+    border: none;
+}
+
+.ec-search-bar button {
+    border: none;
+    height: 28px;
+    width: 2 8px;
+}
+
+
+/*Icones*/
+
+.ec-search-icons {
+    width: 216px;
+    height: 48px;
+    align-items: left;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ec-search-box {
+    border: none;
+}
+
+.ec-icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 32px;
+}
+
+.ec-search-button img {
+    border: none;
+}
+
+/*Navbar categorias*/
+
+.ec-category {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+  
+}
+
+.ec-category-link {
+    text-decoration: none;
+    margin-right: 91px;
+    font-size: 12px;
+    color: $ec-color-font-cinza-medio;
+  
+
+}
+
+.ec-category-link:first-child {
+    margin-left: 7px;
+}
