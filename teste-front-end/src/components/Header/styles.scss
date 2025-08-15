@@ -110,22 +110,25 @@ span {
     border: none;
 }
 
-/*Navbar categorias*/
+
 
 .ec-category {
     width: 100%;
     display: flex;
-    margin: 10px;
+    margin-top: 10px;
     justify-content: center;
+    margin-bottom: 10px;
   
 }
+
+
 
 .ec-category-link {
     text-decoration: none;
     margin-right: 91px;
     font-size: 12px;
     color: $ec-color-font-cinza-medio;
-  
+    justify-content: center;
 
 }
 

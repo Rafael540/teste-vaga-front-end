@@ -7,6 +7,7 @@ import cart from '../../assets/ShoppingCart.svg'
 import shield from '../../assets/ShieldCheck.svg'
 import truck from '../../assets/Truck.svg'
 import card from '../../assets/CreditCard.svg'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import crown from '../../assets/CrownSimple.svg'
 
 import '../Header/styles.scss'
@@ -43,7 +44,6 @@ export default function Header() {
                             <input
                                 type="text"
                                 placeholder="O que voce esta buscando?"
-
                             />
                             <button type="submit"  >
                                 <img src={search} alt="Buscar" />
@@ -58,19 +58,23 @@ export default function Header() {
                     </div>
 
                 </div>
-                <div className='ec-background-category'>
-                    <div className='ec-category'>
-                        <ul>
-                            <a className='ec-category-link' href="#">TODAS CATEGORIAS</a>
-                            <a className='ec-category-link' href="#">SUPERMERCADO</a>
+
+                <div className='ec-category'>
+                    <ul>
+                            <a className='ec-category-link'   href="#">TODAS CATEGORIAS</a>
+                      
+                            <a className='ec-category-link'  href="#">SUPERMERCADO</a>
+                       
                             <a className='ec-category-link' href="#">LIVROS</a>
-                            <a className='ec-category-link' href="#">MODA</a>
-                            <a className='ec-category-link' href="#">LANÇAMENTOS</a>
+                        
+                            <a className='ec-category-link'  href="#">MODA</a>
+                       
+                            <a className='ec-category-link'  href="#">LANÇAMENTOS</a>
+                      
                             <a className='ec-category-link' href="#"><span>OFERTAS DO DIA</span></a>
-                            <a className='ec-category-link' href="#">
-                                <img src={crown} alt="" /> ASSINATURAS</a>
-                        </ul>
-                    </div>
+
+                            <a className='ec-category-link'  href="#">ASSINATURAS</a>
+                    </ul>
                 </div>
 
 

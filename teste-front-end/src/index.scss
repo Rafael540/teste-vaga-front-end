@@ -11,21 +11,21 @@ $ec-color-button-amarelo: #F7CA11;
 
 $ec-color-font-cinza-medio: #9F9F9F;
 $ec-color-font-cinza-escuro: #3F3F40;
+$ec-color-font-preto:#4E4E4E;
 $ec-color-font-azul: #3442B5;
+$ec-color-font-azul-escuro:#271C47;
 $ec-color-font-branca: #fff;
 $ec-color-font-amarelo: #F7CA11;
 
 $ec-color-border-cinza-claro: #f0f0f0;
 
-$ec-color-shadow: #393013;
-
-//Reset e estilos globais
+//Reset e
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Poppins' ;
+  font-family: Poppins;
 }
 
 html,
@@ -37,7 +37,7 @@ body {
 /*generico*/
 .ec-container {
   margin: 0 auto;
-  max-width: 1200px;
+  width: 100%;
   padding: 0 20px;
   display: flex;
   justify-content: center;

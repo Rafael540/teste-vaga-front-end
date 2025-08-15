@@ -1,20 +1,26 @@
-
-import '../Hero/styles.scss'
+import ButtonCTA from '../ButtonCTA';
+import './styles.scss'
 
 export default function Hero() {
-
-
     return (
-        <>
-            <section className="hero ">
-                <div className="hero-content ">
+        <> <div className='ec-hero '>
+            <section className='ec-container'>
+
+                <div className='ec-box-hero'>
+
                     <h1>Venha conhecer nossas promoções</h1>
-                    <p>
-                        <span className="highlight">50% Off</span> nos produtos
-                    </p>
-                    <button className='ec-hero-button'>Ver produto</button>
+                    <p><span className='ec-highlight'>50% Off</span> nos produtos</p>
+                    <ButtonCTA text={'Ver produto'}/>
+
                 </div>
-            </section>
+
+
+
+
+            </section >
+        </div>
+
         </>
     );
+
 }
