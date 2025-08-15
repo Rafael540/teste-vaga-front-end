@@ -1,12 +1,28 @@
+import CardParceiros from "../../../components/CardParceiros";
 import ComprarCategoria from "../../../components/ComprarCategoria";
 import Hero from "../../../components/Hero";
+import NaveguePorMarcas from "../../../components/NaveguePorMarcas";
+import NewsLetters from "../../../components/NewsLetters";
+import ProdutosRelacionados from "../../../components/ProdutosRelacionados";
+import ProdutosRelacionados2 from "../../../components/ProdutosRelacionados2";
 
-export default function Home(){
+export default function Home() {
 
-    return(
+    return (
         <>
-        <Hero/>
-        <ComprarCategoria/>
+            <main>
+                <Hero />
+                <ComprarCategoria />
+                <ProdutosRelacionados />
+                <CardParceiros />
+                <ProdutosRelacionados2 />
+                <CardParceiros />
+                <NaveguePorMarcas />
+                <ProdutosRelacionados2 />
+                <NewsLetters />
+
+
+            </main>
         </>
     );
 

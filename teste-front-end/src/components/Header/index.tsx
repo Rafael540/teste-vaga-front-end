@@ -73,7 +73,7 @@ export default function Header() {
                       
                             <a className='ec-category-link' href="#"><span>OFERTAS DO DIA</span></a>
 
-                            <a className='ec-category-link'  href="#">ASSINATURAS</a>
+                            <a className='ec-category-link'  href="#"><img src={crown} alt="" />ASSINATURAS</a>
                     </ul>
                 </div>
 

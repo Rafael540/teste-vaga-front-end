@@ -1,0 +1,19 @@
+@use '../../index' as *;
+
+
+.ec-relate-products-link {
+    border: 1px solid $ec-color-border-cinza;
+    display: inline-flex;
+    height: 40px;
+    min-width: 214px;
+    font-size: 16px;
+    padding: 12px 58px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $ec-color-font-preto;
+    gap: 10px;
+    flex: 1 0 0;
+    margin-bottom: 24px;
+    
+}

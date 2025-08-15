@@ -1,0 +1,55 @@
+@use '../../index' as *;
+
+.ec-partners {
+    width: 634px;
+    height: 350px;
+
+    background-image: url(../../assets/background.jpg);
+    margin-right: 13px;
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.ec-partners-text {
+    width: 634px;
+
+    align-content: center;
+    justify-content: center;
+    padding-left: 44px;
+    margin-top: 25px;
+    color: $ec-color-font-branca;
+
+}
+
+.ec-partners-text-title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ec-partners-text-subtitle {
+    width: 199.92px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ec-button-secondary button {
+    width: 144.693px;
+    height: 48px;
+    margin-top: 40px;
+    flex-shrink: 0;
+    background-color: $ec-color-button-amarelo;
+    color: $ec-color-font-azul-escuro;
+    border-radius: 6px;
+    border: none;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}

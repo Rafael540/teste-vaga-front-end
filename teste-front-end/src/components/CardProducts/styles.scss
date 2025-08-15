@@ -1,0 +1,80 @@
+@use '../../index' as *;
+
+
+.ec-relate-product {
+    text-align: center;
+}
+
+
+.ec-relate-products-title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: $ec-color-font-azul;
+    margin-bottom: 8px;
+}
+
+.ec-relate-card-produts {
+    width: 304px;
+    height: 500px;
+    padding-top: 32px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: $ec-color-bg-branco;
+    box-shadow: 0 3px 19px 0 rgba(0, 0, 0, 0.22);
+}
+
+.ec-relate-card-text {
+    padding-left: 16px;
+    justify-items: left;
+}
+
+
+.ec-relate-card-text p {
+    text-align: left;
+}
+
+.ec-relate-card-text-title {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: $ec-color-font-preto;
+    margin-bottom: 12px;
+}
+
+.ec-relate-card-text-little-price {
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+    color: $ec-color-font-cinza;
+}
+
+.ec-relate-card-text-price {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+
+}
+
+.ec-relate-card-text-fees {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 7px;
+    color: $ec-color-font-preto;
+}
+
+.ec-relate-card-text-delivery {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: $ec-color-font-azul;
+}

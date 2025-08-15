@@ -1,0 +1,18 @@
+@use '../../index' as *;
+
+
+.ec-relate-cards {
+    gap: 18px;
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.ec-relate-products-subtitle {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: $ec-color-font-preto;
+    margin-bottom: 24px;
+}

@@ -1,0 +1,24 @@
+@use '../../index' as *;
+
+.ec-background {
+
+    height: 164px;
+    background-color: $ec-color-bg-violeta;
+}
+
+.ec-newsletter-box{
+    border: 1px solid red;
+    width: 1260px;
+    display: flex;
+    align-content: left;
+    justify-content: space-around;
+}
+
+.ec-newsletter {
+    border: 1px solid red;
+    width:515px;
+    display:flex;
+    flex-direction: column;
+    align-content: left;
+    gap: 8px;
+}
