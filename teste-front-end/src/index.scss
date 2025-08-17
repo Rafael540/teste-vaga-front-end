@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 //Variaveis cores
 $ec-color-bg-branco: #fff;
@@ -14,16 +14,16 @@ $ec-color-button-azul: #3442B5;
 $ec-color-button-amarelo: #F7CA11;
 
 $ec-color-font-cinza-medio: #9F9F9F;
-$ec-color-font-cinza:#808080;
+$ec-color-font-cinza: #808080;
 $ec-color-font-cinza-escuro: #3F3F40;
-$ec-color-font-preto:#4E4E4E;
+$ec-color-font-preto: #4E4E4E;
 $ec-color-font-azul: #3442B5;
-$ec-color-font-azul-escuro:#271C47;
+$ec-color-font-azul-escuro: #271C47;
 $ec-color-font-branca: #fff;
 $ec-color-font-amarelo: #F7CA11;
 
 $ec-color-border-cinza-claro: #f0f0f0;
-$ec-color-border-cinza:#BDBDBD;
+$ec-color-border-cinza: #BDBDBD;
 
 //Reset e
 
@@ -51,12 +51,56 @@ body {
 
 
 .active {
-    color: $ec-color-font-azul;
-    font-weight: bold;
-    
+  color: $ec-color-font-azul;
+  font-weight: bold;
+
 }
 
 
-.mr13px{
-    margin-right: 16px;
+.mr13px {
+  margin-right: 16px;
+}
+
+
+
+/*Arrows*/
+
+
+.ec-buttons {
+  text-align: center;
+   background-color: none;
+  align-content: center;
+  width: 32px;
+  z-index: 1;
+  position: relative
+  ;
+
+
+}
+
+.ec-buttons .arrow-left {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: none;
+  float: left;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 32px;
+  background: #FFF;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.ec-buttons .arrow-right {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: none;
+  float: right;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 32px;
+  background: #FFF;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }

@@ -1,6 +1,7 @@
 import CategoriasProdutos from '../CategoriasProdutos';
 import './styles.scss'
 import CardProducts from '../CardProducts';
+import line2 from '../../assets/Line 26.svg'
 
 
 
@@ -11,16 +12,22 @@ export default function ProdutosRelacionados() {
             <section className='ec-container'>
                 <div className='ec-relate-product'>
                     <div className="ec-relate-products-title">
-                        <h1>Produtos relacionados</h1>
+                        <div> <img src={line2} alt="" /></div>
+                        <div><h1>Produtos relacionados</h1></div>
+                        <div> <img src={line2} alt="" /></div>
                     </div>
                     <CategoriasProdutos />
+                    
                     <div className='ec-relate-cards'>
-                        <CardProducts/>
-                        <CardProducts/>
-                        <CardProducts/>
-                        <CardProducts/>
+
+             
+                        <CardProducts />
                     </div>
+                    
+
+
                 </div>
+
 
             </section>
 
