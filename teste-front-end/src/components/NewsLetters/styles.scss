@@ -1,24 +1,94 @@
 @use '../../index' as *;
 
 .ec-background {
-
     height: 164px;
     background-color: $ec-color-bg-violeta;
 }
 
-.ec-newsletter-box{
-    border: 1px solid red;
+.ec-newsletter-box {
+
     width: 1260px;
     display: flex;
     align-content: left;
     justify-content: space-around;
 }
 
+/*Newsletter título*/
+
 .ec-newsletter {
-    border: 1px solid red;
-    width:515px;
-    display:flex;
+
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    align-content: left;
+    align-content: flex-start;
     gap: 8px;
+    padding: 40px 0;
+}
+
+
+.ec-newsletter-title {
+    color: $ec-color-font-branca;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.ec-newsletter-subtitle {
+    width: 515px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    color: $ec-color-font-branca;
+}
+
+/*Newletter inputs*/
+
+.ec-newsletter-form {
+
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.ec-newsletter-form-input {
+    width: 222px;
+    height: 42px;
+    padding: 12px 24px;
+    align-items: center;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: 1px solid #E7E7E7;
+    background: #FFF;
+}
+
+
+/*Newletter checkbox*/
+
+.ec-newsletter-form-box {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    margin-top: 8px;
+    
+}
+
+.ec-newsletter-form-checkbox {
+    width: 226px;
+    margin-top: 8px;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+.ec-newletter-form-box-title{
+    color: $ec-color-font-branca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }

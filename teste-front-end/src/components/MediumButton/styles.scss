@@ -1,0 +1,19 @@
+@use '../../index' as *;
+
+.ec-button-secondary button {
+    width: 144.693px;
+    height: 48px;
+    margin-top: 32px;
+    flex-shrink: 0;
+    background-color: $ec-color-button-amarelo;
+    color: $ec-color-font-azul-escuro;
+    border-radius: 6px;
+    border: none;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}

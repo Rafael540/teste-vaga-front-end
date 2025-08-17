@@ -1,0 +1,45 @@
+@use '../../index' as *;
+
+
+.ec-search-category {
+    width: 100%;
+    height: 40px;
+    align-content: center;
+    flex-shrink: 0;
+    background: $ec-color-bg-branco;
+    box-shadow: 0 8px 16px 0 rgba(57, 48, 19, 0.12);
+
+}
+
+.ec-category {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ec-category-list {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ec-category-link {
+    color: $ec-color-font-cinza;
+    margin-right: 91px;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercas
+}
+
+.ml70 {
+    margin-left: 70px;
+
+}

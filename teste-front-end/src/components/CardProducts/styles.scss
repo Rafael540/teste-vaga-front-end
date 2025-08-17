@@ -6,14 +6,6 @@
 }
 
 
-.ec-relate-products-title {
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: $ec-color-font-azul;
-    margin-bottom: 8px;
-}
-
 .ec-relate-card-produts {
     width: 304px;
     height: 500px;
@@ -22,7 +14,18 @@
     border-radius: 10px;
     background: $ec-color-bg-branco;
     box-shadow: 0 3px 19px 0 rgba(0, 0, 0, 0.22);
+    
 }
+
+
+.ec-relate-products-title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: $ec-color-font-azul;
+    margin-bottom: 8px;
+}
+
 
 .ec-relate-card-text {
     padding-left: 16px;

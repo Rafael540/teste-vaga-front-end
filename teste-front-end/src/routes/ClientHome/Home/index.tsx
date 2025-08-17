@@ -1,5 +1,6 @@
 import CardParceiros from "../../../components/CardParceiros";
 import ComprarCategoria from "../../../components/ComprarCategoria";
+import Footer from "../../../components/Footer";
 import Hero from "../../../components/Hero";
 import NaveguePorMarcas from "../../../components/NaveguePorMarcas";
 import NewsLetters from "../../../components/NewsLetters";
@@ -20,6 +21,7 @@ export default function Home() {
                 <NaveguePorMarcas />
                 <ProdutosRelacionados2 />
                 <NewsLetters />
+                <Footer/>
 
 
             </main>

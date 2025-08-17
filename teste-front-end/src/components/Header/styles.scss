@@ -29,13 +29,14 @@
 
 }
 
-span {
-    color: $ec-color-font-azul;
-    font-weight: 600;
-}
+
 
 
 /*Navbar centro*/
+.ec-search-box {
+    border: none;
+    justify-content: space-between;
+}
 
 .ec-navbar {
     background-color: $ec-color-bg-branco ;
@@ -89,16 +90,14 @@ span {
 .ec-search-icons {
     width: 216px;
     height: 48px;
-    align-items: left;
-    margin-right: 32px;
+    align-items: right;
+    justify-content: left;
     display: flex;
     align-items: center;
 
 }
 
-.ec-search-box {
-    border: none;
-}
+
 
 .ec-icons {
     width: 24px;
@@ -106,32 +105,13 @@ span {
     margin-right: 32px;
 }
 
+.ec-icons-last {
+    width: 24px;
+    height: 24px;
+
+}
+
 .ec-search-button img {
     border: none;
 }
 
-
-
-.ec-category {
-    width: 100%;
-    display: flex;
-    margin-top: 10px;
-    justify-content: center;
-    margin-bottom: 10px;
-  
-}
-
-
-
-.ec-category-link {
-    text-decoration: none;
-    margin-right: 91px;
-    font-size: 12px;
-    color: $ec-color-font-cinza-medio;
-    justify-content: center;
-
-}
-
-.ec-category-link:first-child {
-    margin-left: 7px;
-}

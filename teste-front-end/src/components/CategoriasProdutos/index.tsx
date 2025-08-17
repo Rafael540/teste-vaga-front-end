@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './styles.scss'
 
 export default function CategoriasProdutos() {
@@ -6,12 +7,60 @@ export default function CategoriasProdutos() {
         <>
             <div >
                 <ul>
-                    <a className='ec-relate-products-link' href="#">CELULAR</a>
-                    <a className='ec-relate-products-link' href="#">ACESSÓRIOS</a>
-                    <a className='ec-relate-products-link' href="#">TABLETS</a>
-                    <a className='ec-relate-products-link' href="#">NOTEBOOKS</a>
-                    <a className='ec-relate-products-link' href="#">TVS</a>
-                    <a className='ec-relate-products-link' href="#">VER TODOS</a>
+                    <NavLink
+                        to="/"
+                        className={({ isActive }) =>
+                            `ec-relate-products-link ${isActive ? 'active' : ''}`
+                        }
+                    >
+                        CELULAR
+                    </NavLink>
+
+                    <NavLink
+                        to="/acessorios"
+                        className={({ isActive }) =>
+                            `ec-relate-products-link ${isActive ? 'active' : ''}`
+                        }
+                    >
+                        ACESSÓRIOS
+                    </NavLink>
+
+                    <NavLink
+                        to="/tablets"
+                        className={({ isActive }) =>
+                            `ec-relate-products-link ${isActive ? 'active' : ''}`
+                        }
+                    >
+                        TABLETS
+                    </NavLink>
+
+                    <NavLink
+                        to="/notebooks"
+                        className={({ isActive }) =>
+                            `ec-relate-products-link ${isActive ? 'active' : ''}`
+                        }
+                    >
+                        NOTEBOOKS
+                    </NavLink>
+
+                    <NavLink
+                        to="/tvs"
+                        className={({ isActive }) =>
+                            `ec-relate-products-link ${isActive ? 'active' : ''}`
+                        }
+                    >
+                        TVS
+                    </NavLink>
+
+                    <NavLink
+                        to="/produtos"
+                        className={({ isActive }) =>
+                            `ec-relate-products-link ${isActive ? 'active' : ''}`
+                        }
+                    >
+                        VER TODOS
+                    </NavLink>
+
 
                 </ul>
             </div>

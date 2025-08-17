@@ -3,6 +3,8 @@ import ButtonPrimary from "../ButtonPrimary";
 import mobile from '../../assets/mobile.jpg'
 export default function CardProducts() {
 
+
+
     return (
         <>
             <div className='ec-relate-card-produts'>

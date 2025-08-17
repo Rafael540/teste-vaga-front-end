@@ -1,0 +1,136 @@
+@use '../../index' as *;
+
+
+.ec-footer-background {
+    background-color: $ec-color-bg-cinza;
+    display: flex;
+    width: 100%;
+    height: 282px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;  
+}
+
+.ec-footer-box {
+    width: 1260px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/*Title logo*/
+
+.ec-footer-logo {
+
+    width: 354px;
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+
+}
+
+.ec-footer-logo-title p {
+    color: #3F3F40;
+    width: 354px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*Logo Social Media*/
+.ec-footer-logo-social a {
+    text-decoration: none;
+    margin-right: 26px;
+}
+
+/*Line*/
+.ec-footer-line {
+
+    width: 1px;
+    height: 198px;
+}
+
+/*Nav links*/
+.ec-footer-nav {
+
+    width: 631px;
+    margin-right: 114px;
+    height: auto;
+    display: flex;
+
+}
+
+.ec-footer-nav-institucion,
+.ec-footer-nav-help,
+.ec-footer-nav-terms {
+    width: 150px;
+    height: 121px;
+    margin-right: 80px;
+}
+
+
+.ec-footer-nav-institucion p,
+.ec-footer-nav-help p,
+.ec-footer-nav-terms p {
+    margin-bottom: 16px;
+    color: rgba(34, 34, 34, 0.71);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 100% */
+}
+
+.ec-footer-nav-institucion ul,
+.ec-footer-nav-help ul,
+.ec-footer-nav-terms ul {
+
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ec-footer-nav-institucion a,
+.ec-footer-nav-help a,
+.ec-footer-nav-terms a {
+    color: rgba(34, 34, 34, 0.71);
+    font-family: "Work Sans";
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+    text-decoration: none;
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.ec-copyright {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 1441px;
+    height: 46.842px;
+
+}
+
+/*Nav copyright*/
+.ec-copyright p {
+
+    flex-shrink: 0;
+
+    color: var(--Preto, #3F3F40);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
