@@ -4,6 +4,7 @@
 .ec-search-category {
     width: 100%;
     height: 40px;
+    display: flex;
     align-content: center;
     flex-shrink: 0;
     background: $ec-color-bg-branco;
@@ -16,12 +17,16 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+  
+
 
 }
 
 .ec-category-list {
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
 .ec-category-link {

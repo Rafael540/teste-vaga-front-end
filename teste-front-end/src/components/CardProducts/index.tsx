@@ -6,7 +6,8 @@ import left from "../../assets/chevron left.svg";
 import right from "../../assets/chevron right.svg";
 
 import "./styles.scss";
-import { TestModal } from "../Modal/TestModal";
+import { Modal } from "../Modal/Modal";
+
 
 
 export default function CardProducts() {
@@ -73,7 +74,8 @@ export default function CardProducts() {
                             <img src={left} alt="Scroll Left" />
                         </button>
                     </div>
-
+                    
+                    {/*Preparando itens*/}
                     {data.map((item) => {
                         const { productName, photo, price, descriptionShort } = item;
                         return (
@@ -109,7 +111,7 @@ export default function CardProducts() {
 
             {/* Modal */}
             {selectedProduct && (
-                <TestModal isOpen={open} setOpen={setOpen} product={selectedProduct}
+                <Modal isOpen={open} setOpen={setOpen} product={selectedProduct}
                 />
             )}
         </>

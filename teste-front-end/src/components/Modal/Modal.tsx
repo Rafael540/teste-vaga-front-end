@@ -11,7 +11,7 @@ interface ModalProps {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export const TestModal = ({ isOpen, setOpen, product }: ModalProps) => {
+export const Modal = ({ isOpen, setOpen, product }: ModalProps) => {
 
     if (!isOpen) return null;
 
@@ -30,7 +30,6 @@ export const TestModal = ({ isOpen, setOpen, product }: ModalProps) => {
             const soma = count - 1;
             setCount(soma)
         }
-
 
 
     }

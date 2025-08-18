@@ -74,9 +74,14 @@ export default function CategoryLink() {
                                     `ec-category-link ${isActive ? 'active' : ''}`
                                 }
                             >
-                                <img className="ec-category-icon" src={crown} alt="assinaturas" />
-                                ASSINATURAS
+                                <div style={{marginRight:'12px', width:'20px', height:'20px'}}>
+                                    <img style={{ alignContent:'center', justifyContent:'center'}}className="ec-category-icon" src={crown} alt="assinaturas" />
+                                </div>
+                                    ASSINATURAS
+                                
+
                             </NavLink>
+
 
 
                         </ul>
