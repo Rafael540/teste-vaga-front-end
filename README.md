@@ -53,7 +53,7 @@ teste-front-end/
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/usuario/teste-vaga-front-end.git
+   git clone https://github.com/Rafael540/teste-vaga-front-end.git
    ```
 
 2. Entre na pasta do projeto:
@@ -96,6 +96,6 @@ teste-front-end/
 ## 👨‍💻 Autor
 
 Desenvolvido por **Rafael Alves Neves da Silva**
-🔗 [GitHub](https://github.com/rafaelalvesneves) | [LinkedIn](https://linkedin.com/in/rafaelalvesneves)
+🔗 [GitHub](https://github.com/Rafael540) | [LinkedIn](https://www.linkedin.com/in/rafael-alves-neves/)
 
 ---
