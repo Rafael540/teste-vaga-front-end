@@ -1,11 +1,19 @@
 @use '../../index' as *;
 
 
+.ec-relate-category{
+    border: 1px solid red;
+    display: flex;
+    width: 1280px;
+    align-items: center;
+
+}
+
 .ec-relate-products-link {
     border: 1px solid $ec-color-border-cinza;
     display: inline-flex;
     height: 40px;
-    min-width: 214.17px;
+    width: 214.17px;
     font-size: 16px;
     padding: 12px 58px;
     justify-content: center;

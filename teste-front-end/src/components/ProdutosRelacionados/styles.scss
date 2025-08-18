@@ -1,23 +1,22 @@
 @use '../../index' as *;
 
-
-.ec-relate-cards {
-    gap: 18px;
-    flex: none;
-    max-width:100vw;
-   
-    display:flex;
-    margin-bottom: 90px;
-    justify-content: space-between;
- 
-
+.ec-relate-product{
+    justify-content: center;
 }
 
+.ec-relate-cards {
+    width: 100vw;
+    height: 510px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+ 
+}
 
 .ec-relate-products-title {
     display: flex;
     justify-content: center;
-    gap: 34px;
+    gap: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

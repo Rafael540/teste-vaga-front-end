@@ -1,57 +1,66 @@
 @use '../../index' as *;
 
 
-.ec-relate-product {
-    text-align: center;
-    z-index: 2;
-  
-}
 
-
-.ec-relate-card-produts {
-    width: 304px;
-    height: 500px;
+.ec-product {
+    max-width: 304px;
+    max-height: 500px;
     display: flex;
-    justify-content: center;
-    padding-top: 32px;
-    flex-shrink: 0;
     border-radius: 10px;
-    background: $ec-color-bg-branco;
+    background: #FFF;
     box-shadow: 0 3px 19px 0 rgba(0, 0, 0, 0.22);
-
 }
 
 
-.ec-relate-card-text {
-    padding-left: 16px;
-    justify-items: left;
+
+.ec-product-box {
+    width: 304px;
+    align-content: center;
+    max-height: 500px;
+    margin-top: 17px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Card elementos*/
+.ec-product-el{
+    padding-left: 12px;
 }
 
 
-.ec-relate-card-text p {
-    text-align: left;
+.ec-product-img {
+    align-content: center;
+    padding-left:12.39px;
+    padding-right: 13.51;
+
+
+
 }
 
-.ec-relate-card-text-title {
+.ec-product-dsc {
+    color: $ec-color-font-preto;
+    width: 275.852px;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    color: $ec-color-font-preto;
     margin-bottom: 12px;
 }
 
-.ec-relate-card-text-little-price {
-    margin-bottom: 2px;
+.ec-product-lp {
+    color: $ec-color-font-cinza;
+    width: 75.437px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration-line: line-through;
-    color: $ec-color-font-cinza;
+    margin-bottom: 2px;
 }
 
-.ec-relate-card-text-price {
+.ec-product-p {
+    color: $ec-color-font-preto;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -60,21 +69,36 @@
 
 }
 
-.ec-relate-card-text-fees {
+.ec-product-fees {
+    color: $ec-color-font-preto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 7px;
-    color: $ec-color-font-preto;
 }
 
-.ec-relate-card-text-delivery {
+.ec-product-dl {
+    color: $ec-color-font-azul;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: $ec-color-font-azul;
+    margin-bottom: 12px
 }
 
+.ec-button-primary{
+    align-content: center;
+}
 
+.ec-button-primary button {
+    width: 275.852px;
+    height: 44px;
+    border-radius: 4px;
+    background: var(--Azul, #3442B5);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    color: $ec-color-font-branca;
+    text-transform: uppercase;
+}

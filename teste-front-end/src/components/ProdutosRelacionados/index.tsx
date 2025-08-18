@@ -16,14 +16,14 @@ export default function ProdutosRelacionados() {
                         <div><h1>Produtos relacionados</h1></div>
                         <div> <img src={line2} alt="" /></div>
                     </div>
-                    <CategoriasProdutos />
-                    
+                   
+                        <CategoriasProdutos />
+                   
                     <div className='ec-relate-cards'>
 
-             
                         <CardProducts />
                     </div>
-                    
+
 
 
                 </div>

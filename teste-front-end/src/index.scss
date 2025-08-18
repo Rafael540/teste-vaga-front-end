@@ -68,23 +68,25 @@ body {
 
 .ec-buttons {
   text-align: center;
-   background-color: none;
   align-content: center;
-  width: 32px;
+  align-items:  center;
+  position:sticky;
+  left: 10px;
+  right: 10px;
+  height: 500px;
+  width: 32pxx;
+  border-radius: 32px;
   z-index: 1;
-  position: relative
-  ;
-
-
 }
 
+
+
 .ec-buttons .arrow-left {
-  width: 32px;
+  width: 20px;
   height: 32px;
   flex-shrink: 0;
   border: none;
   float: left;
-  background-color: transparent;
   cursor: pointer;
   border-radius: 32px;
   background: #FFF;
@@ -98,7 +100,7 @@ body {
   flex-shrink: 0;
   border: none;
   float: right;
-  background-color: transparent;
+
   cursor: pointer;
   border-radius: 32px;
   background: #FFF;
